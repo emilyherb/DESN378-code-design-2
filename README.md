@@ -1,7 +1,7 @@
 # DESN 378: Code + Design 2
 
 🔗 **[Learning Log](https://emilyherb.github.io/DESN378-code-design-2)**
-🔗 **[DESN368 Portfolio](https://github.com/emilyherb/portfolio-eh-368)** _FYI, this is just the URL to your repo; if it's still on Netlify, then use that. _
+🔗 **[DESN368 Portfolio](https://github.com/emilyherb/portfolio-eh-368)** 
 
 ---
 
