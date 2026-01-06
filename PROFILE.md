@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** | Emily Herbert |
+| **Preferred Name** | Emily|
+| **Pronouns** | she/her |
+| **EWU Email** | eherbert1@ewu.edu |
 
 ---
 
@@ -22,18 +22,18 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
-| **Portfolio** | *Coming Week 10* | 🔲 |
+| **GitHub** | https://github.com/emilyherb | ⏳ |
+| **Figma** | https://www.figma.com/files/team/1420836836780564858/user/1420836832882931236?fuid=1420836832882931236 | ⏳ |
+| **CodePen** | https://codepen.io/emilyherb | ⏳ |
+| **Portfolio** | https://emilyherbert.netlify.app/ | ⏳ |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
-- [ ] Face visible (helps me learn names!)
+- [X] Same photo uploaded to GitHub, Figma, and CodePen
+- [X] Professional or at least *intentional*
+- [X] Face visible (helps me learn names!)
 
 ---
 
@@ -41,8 +41,8 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
 | Expires | <!-- Date --> |
 
 👉 [Check status or renew](https://education.github.com/pack)
@@ -65,10 +65,7 @@ Update it once, keep it consistent everywhere.
 
 *Optional: A sentence or two about your design interests. This could seed your eventual portfolio bio.*
 
-<!-- 
-Example: "I'm drawn to motion design and systems thinking. 
-Currently exploring how interaction design can feel more human."
--->
+My design interests are web design and social media / marketing. I am glad I have CS knowledge since it comes in handy a lot and makes me more well rounded as a designer.
 
 ---
 
