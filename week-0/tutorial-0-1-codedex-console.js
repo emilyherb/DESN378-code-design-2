@@ -1,9 +1,9 @@
 // ============================================
 // TUTORIAL 0-1: CODEDEX CONSOLE FUNDAMENTALS
-// Student: [Your Name]
-// Date: [Date]
+// Student: Emily Herbert
+// Date: 1/7/26
 // ============================================
-​
+
 // --------------------------------------------
 // EXERCISE 1: SETTING UP
 console.log("Hello internet!");
@@ -11,14 +11,14 @@ console.log("Hello internet!");
 console.log("my name is emily :)!");
 // --------------------------------------------
 
-​
+
 // --------------------------------------------
 // EXERCISE 2: THE CONSOLE
 // Your favorite food
 console.log("cheeseburgers!");
 // --------------------------------------------
-​
-​
+
+
 // --------------------------------------------
 // EXERCISE 3: LETTER TREE
 // The pattern: a, b c, d e f, g h i j, k
@@ -28,8 +28,8 @@ console.log(" d e f ");
 console.log("g h i j ");
 console.log("   k   ");
 // --------------------------------------------
-​
-​
+
+
 // --------------------------------------------
 // EXERCISE 4: SECRET RECIPE
 // Use comments to document your recipe
@@ -49,8 +49,8 @@ console.log("- Drain the pasta");
 console.log("- Serve topped with sauce and meatballs");
 
 // --------------------------------------------
-​
-​
+
+
 // --------------------------------------------
 // EXERCISE 5: RECEIPT
 // Format a receipt from a recent purchase
