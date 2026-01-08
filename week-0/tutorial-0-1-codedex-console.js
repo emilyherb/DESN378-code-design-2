@@ -65,6 +65,6 @@ console.log("🍔 Big Mac       1          7.99");
 console.log("🍔 McCrispy      1          5.99");
 console.log("🍟 Large Fry     2          8.49");
 console.log("----------------------------------");
-console.log("Total                      22.47");
+console.log("Total                      22.47 ");
 console.log("==================================");
 // --------------------------------------------
