@@ -40,7 +40,8 @@ console.log("Ingredients: ");
 console.log("- Gluten free Barilla spaghetti noodles");
 console.log("- Four cheese pasta sauce");
 console.log("- 4 beef meatballs");
-// the secret is to add enough parmesan that you can't see the noodles anymore
+/* the secret is to add enough parmesan that
+ you can't see the noodles anymore*/
 console.log(" ");
 console.log("Instructions: ");
 console.log("- Bring a pot of water to a boil");
