@@ -1,7 +1,7 @@
 # DESN 378: Code + Design 2
 
 🔗 **[Learning Log](https://emilyherb.github.io/DESN378-code-design-2)**
-🔗 **[DESN368 Portfolio](https://github.com/emilyherb/portfolio-eh-368)** 
+🔗 **[DESN368 Portfolio](https://emilyherbert.netlify.app/)** 
 
 ---
 
