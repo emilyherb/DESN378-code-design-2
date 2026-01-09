@@ -63,6 +63,17 @@ button {
   transition: all 0.2s ease;
 }
 
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.button-row button {
+  margin: 0;
+}
+
 button:hover,
 button:focus-visible {
   background: rgba(34, 66, 29, 0.1);
@@ -96,6 +107,8 @@ p, li {
   line-height: 2;
   letter-spacing: 0.5px;
   color: #8fa835;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
 }
 
 
@@ -103,6 +116,31 @@ img {
   display: block;
   margin: 30px auto;
 }
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height:400px;
+  margin: 10px auto 30px auto;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  display: block;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  pointer-events: none; 
+}
+
+.image-container img.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 
 a{
   color:#6b1a1a;
@@ -125,12 +163,6 @@ a{
 .terminal li::before {
   content: "$ ";
   color: #6b1a1a;
-}
-
-.terminal p,
-.terminal li {
-  line-height: 1.8;
-  letter-spacing: 0.2px;
 }
 
 
