@@ -35,7 +35,7 @@ I found a few obstacles when trying to reach the stretch goals - specifically ad
 ​
 ​
 ### How I Used AI
-I used AI to jazz up my webpage and add some animations. From code + design 1 I knew that javascript supports animations and how to make them your own using keyframes, but I don't know off the top of my head what they are called. I used 'blink' and 'glitch'. I don't know how to use copiliot since I have never tried, but that is a goal of mine since I think it would simplify my workflow.
+I used AI to jazz up my webpage and add some animations. From code + design 1 I learned the surface of animations and how to make them your own using keyframes, but I don't know off the top of my head what they are called. I used 'blink' and 'glitch'. I don't know how to use copiliot since I have never tried, but that is a goal of mine since I think it would simplify my workflow.
 ​
 ​
 ### What's Still Unclear
