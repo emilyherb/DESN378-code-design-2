@@ -48,7 +48,7 @@ console.log(fundingAmount);
 // Formula: (fahrenheit - 32) / 1.8
 let fahrenheit = 46;
 const celsius = (fahrenheit - 32)/1.8;
-console.log(celsius +);
+console.log(celsius + "°C");
 // --------------------------------------------
 
 
