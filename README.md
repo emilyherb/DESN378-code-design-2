@@ -23,6 +23,42 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ## Learning Log
 
 Update this section each week with observations, breakthroughs, and questions.
+​
+## Week 0: The Setup
+​
+### What I Learned
+The concepts that were taught this week were about data types and variables. These are common in every coding language, so it was great review. I did become more familiar with querySelector.
+​
+​
+### What Was Hard
+I found a few obstacles when trying to reach the stretch goals - specifically adding a transition between the images when they are toggled. They were displaying stacked. It ended up being a simple error but that can always be a little frustrating.
+​
+​
+### How I Used AI
+I used AI to jazz up my webpage and add some animations. From code + design 1 I learned the surface of animations and how to make them your own using keyframes, but I don't know off the top of my head what they are called. I used 'blink' and 'glitch'. I don't know how to use copiliot since I have never tried, but that is a goal of mine since I think it would simplify my workflow.
+​
+​
+### What's Still Unclear
+I definitely need more practice writing javascript since it doesn't come easily yet. I find myself looking up how to do things / refreshers when I forget exactly how to do something. 
+​
+​
+### Work Completed (Week 0)
+​
+**Engage**
+- [X] Portfolio Audit
+​
+**Learn**
+- [X] Console Explorer
+- [X] Codedex Console Fundamentals
+​
+**Reflect**
+- [X] Visual Notes: Variables and Strings
+​
+**Build**
+- [X] The Setup
+- [X] The Behavioral Layer
+​
+---
 
 ### Week 1: Systems That Respond
 *Coming soon...*
