@@ -1,0 +1,77 @@
+/* RESET + BASE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #0f0f0f;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* STORY CONTAINER */
+.story-container {
+  max-width: 720px;
+  width: 90%;
+  text-align: center;
+}
+
+/* IMAGE */
+.story-image {
+  border: 6px solid #f2f2f2;
+  padding: 6px;
+  margin-bottom: 2rem;
+  background: #000;
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  filter: grayscale(100%) contrast(115%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.story-image img:hover {
+  transform: scale(1.01);
+  filter: grayscale(100%) contrast(130%);
+}
+
+/* CAPTION TEXT */
+.story-text {
+  margin-bottom: 1.5rem;
+}
+
+#story-caption {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* PROGRESS DOTS */
+.story-progress {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: background 0.3s, opacity 0.3s;
+}
+
+.dot.active {
+  background: #f2f2f2;
+  opacity: 1;
+}
