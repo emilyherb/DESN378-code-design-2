@@ -81,6 +81,26 @@ I used AI to help jazz up my captions for The Storyteller because I do not have 
 ### What's Still Unclear
 I think I will have difficulty using the naming conventions because I have been pretty unorganized up until now. It will be a good thing for me though and save me lots of time in the future.
 
+
+### Work Completed (Week 1)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Variables
+- [X] HTML Academy 
+
+**Practice**
+- [X] The Story Teller
+
+**Build**
+- [X] Portfolio Migration
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 1---
+
 ### Week 2: Remembering Choices
 *Coming soon...*
 
