@@ -61,7 +61,45 @@ I definitely need more practice writing javascript since it doesn't come easily 
 ---
 
 ### Week 1: Systems That Respond
-*Coming soon...*
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+This week we learned about using a toggle in javascript. The idea of using a toggle and conditionals is something I am familar with in other programming languages but not in JS. 
+Our reading covered design systems and I learned that those consist of not only style tiles but also pattern and component libraries, mission statements, and documentation!
+​
+​
+### What Was Hard
+I wouldn't say that anything was hard for me this week. Travis provided straightforward templates for our projects, and I really like using both codedex and html academy.
+​
+​
+### How I Used AI
+I used AI to help jazz up my captions for The Storyteller because I do not have a way with words. 
+​
+​
+### What's Still Unclear
+I think I will have difficulty using the naming conventions because I have been pretty unorganized up until now. It will be a good thing for me though and save me lots of time in the future.
+
+
+### Work Completed (Week 1)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Variables
+- [X] HTML Academy 
+
+**Practice**
+- [X] The Story Teller
+
+**Build**
+- [X] Portfolio Migration
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 1---
 
 ### Week 2: Remembering Choices
 *Coming soon...*
