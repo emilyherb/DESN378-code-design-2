@@ -62,8 +62,8 @@ I definitely need more practice writing javascript since it doesn't come easily 
 
 ### Week 1: Systems That Respond
 # Learning Log
-​
-## Week 2
+
+## Week 1
 ​
 ### What I Learned
 This week we learned about using a toggle in javascript. The idea of using a toggle and conditionals is something I am familar with in other programming languages but not in JS. 
@@ -102,7 +102,44 @@ I think I will have difficulty using the naming conventions because I have been 
 - [X] Visual Notes: Week 1---
 
 ### Week 2: Remembering Choices
-*Coming soon...*
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+I learned that I can make variables in Figma for spacing and font families! I also learned a lot about naming them and the different layers that go into that.
+​
+​
+### What Was Hard
+While the act of creating variables is not hard, it is tedious and wil be hard for me to get used to doing that in my projects. I know that the extra work will be worth it though.
+​
+​
+### How I Used AI
+I did not use AI this week for this class.
+​
+​
+### What's Still Unclear
+I do find myself wanting to name all variables semantically, so I need to work on having that additional layer and what to name them.
+​
+​
+### Work Completed (Week 2)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Conditionals
+- [X] figma variables
+
+**Practice**
+- [X] The Switch
+
+**Build**
+- [X] The Foundation
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 2---
 
 ---
 
