@@ -143,6 +143,48 @@ I do find myself wanting to name all variables semantically, so I need to work o
 
 ---
 
+# Learning Log
+​
+## Week 3
+​
+### What I Learned
+I learned how to utilize system preferences and the advantages of using SVGs and what they are!
+​
+​
+### What Was Hard
+It is somewhat challenging to think in a new programming language. Javascript is simpler than Java or C# but it needs a different approach. I noticed this with the saving preference on reload.
+​
+​
+### How I Used AI
+I asked how about the best way to incorporate an image change with the theme change as well.
+​
+​
+### What's Still Unclear
+No further questions at this time.
+​
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [X] variables.css exists
+- [X] Color tokens defined
+- [X] Typography tokens defined
+- [X] Spacing tokens defined
+- [X] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [X] Uses data-theme on <html>
+- [X] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [X] Theme saved to localStorage
+- [X] Theme persists on refresh
+- [X] System preference used on first visit
+
+**Deployment**
+- [X] Deployed to GitHub Pages
+- [X] Repository is public
+
+
 ## Quick Links
 
 - [My Profile](PROFILE.md)
