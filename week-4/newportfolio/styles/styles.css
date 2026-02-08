@@ -1,0 +1,411 @@
+/* styles.css */
+@import url("variables.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@500;700&display=swap");
+
+/* ---------- Base Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* ---------- Dark and Light Modes ---------- */
+/* Applies to <html data-theme="..."> */
+[data-theme="dark"] {
+  --color-bg: var(--neutral-50);
+  --color-surface: rgba(255,255,255,0.08);
+  --color-text: var(--neutral-10);
+  --color-border: var(--neutral-20);
+  --color-accent: var(--accent-50);
+
+  --nav-bg: rgba(43, 43, 43, 0.9);
+  --surface-glass: rgba(0, 0, 0, 0.35);
+}
+
+[data-theme="light"] {
+  --color-bg: var(--neutral-10);
+  --color-surface: rgba(255,255,255,0.08);
+  --color-text: var(--neutral-50);
+  --color-border: var(--neutral-20);
+  --color-accent: var(--accent-50);
+
+  --nav-bg: rgba(250, 247, 243, 0.95);
+  /* to force light card look here, uncomment:
+  --surface-glass: rgba(255, 255, 255, 0.8);
+  */
+}
+
+/* ---------- Background Grain ---------- */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ---------- Typography ---------- */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(3rem, 6vw, 5rem);
+  margin-bottom: var(--space-m);
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: inherit;
+}
+
+.text-link {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.text-link:hover {
+  opacity: 0.9;
+}
+
+/* ---------- Navbar (Sticky) ---------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--color-border);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.2rem 3rem;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.zero {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+/* ---------- Theme Toggle (Dropdown Button) ---------- */
+.theme-toggle {
+  margin-left: 2rem;
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+}
+
+/* ---------- Dropdown ---------- */
+.dropdown {
+  position: relative; 
+}
+
+.dropdown-content {
+  display: none;          
+  position: absolute;     
+  top: calc(100% + 0.5rem);
+  right: 0;
+  overflow: hidden; 
+
+  background: var(--surface-glass);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+
+  min-width: 160px;
+  padding: 0.5rem 0;
+
+  box-shadow: var(--shadow-2);
+  z-index: 1000;
+}
+
+/* Shown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown buttons */
+.dropdown-content button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+
+  padding: 0.6rem 1rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text);
+
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.dropdown-content button + button {
+  border-top: 1px solid var(--color-border);
+}
+
+.dropdown-content svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  display: block;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 6rem 2rem;
+}
+
+.section {
+  margin-bottom: 7rem;
+}
+
+.section-caption {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  opacity: 0.7;
+}
+
+/* ---------- Home Hero (Magazine Storytelling) ---------- */
+.hero {
+  margin-top: 2rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: clamp(3.5rem, 7vw, 6rem);
+}
+
+.lede {
+  font-size: 1.1rem;
+  max-width: 420px;
+}
+
+/* Hero media area */
+.hero-media {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Hero image */
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-s);
+  filter: grayscale(20%) contrast(1.05);
+}
+
+.media-caption {
+  margin-top: 0.75rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.media-block {
+  border: 1px solid var(--color-text);
+  padding: 1.5rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* ---------- Projects Grid ---------- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  background: var(--surface-glass);
+  backdrop-filter: blur(4px);
+
+  padding: var(--space-xl);
+  border-radius: var(--radius-l);
+
+  box-shadow: var(--shadow-2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-3);
+}
+
+.project-link:hover .project-card {
+  cursor: pointer;
+}
+
+.project-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+
+  margin: 1.2rem 0;
+  border-radius: var(--radius-m);
+
+  filter: grayscale(15%) contrast(1.05);
+  box-shadow: var(--shadow-3);
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ---------- Buttons ---------- */
+.button {
+  display: inline-block;
+  margin-top: var(--space-m);
+  padding: 0.6rem 1.5rem;
+
+  border-radius: 30px;
+  background: var(--color-accent);
+  color: #fff;
+
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* ---------- Contact ---------- */
+.contact-info p {
+  margin-bottom: 1rem;
+}
+
+/* ---------- Responsive Tweaks ---------- */
+@media (max-width: 900px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+
+  .container {
+    padding: 4rem 1.5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  nav a {
+    margin-left: 1.2rem;
+  }
+}
+
+/* ---------- Reduced Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .project-card,
+  .project-link,
+  .button,
+  .theme-toggle {
+    transition: none !important;
+  }
+
+  .project-card:hover,
+  .project-link:hover .project-card {
+    transform: none !important;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
