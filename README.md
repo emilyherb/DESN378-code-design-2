@@ -184,6 +184,29 @@ No further questions at this time.
 - [X] Deployed to GitHub Pages
 - [X] Repository is public
 
+## Learning Log
+## Week 4 The Shape // SVG Structure, Figma's Engine, and Interactive Graphics
+​
+### What I Learned
+I learned how to make my own SVGs and brushed up on creating dropdowns! 
+I read about SVG paths too, but have not applied that idea much yet.
+​
+​
+### What Was Hard
+I did face some creative challenges with creating a personal mark. I am not the most creative in that way and with the no paths constraint that made it even more challenging.
+​
+​
+### How I Used AI
+Asked chat why my dropdown code wasn't working. Often times it was mismatched curly braces and I also had an issue with my media query.
+​
+​
+### What's Still Unclear
+I feel a little fuzzy on SVGs but I think that is to be expected. I am feeling nervous about animating them and incorporating them into my final project.
+​
+​
+### Work Completed (Week 4)
+- [X] The Mark
+- [X] Theme Dropdown
 
 ## Quick Links
 
