@@ -23,83 +23,74 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ## Learning Log
 
 Update this section each week with observations, breakthroughs, and questions.
-​
-## Week 0: The Setup
+
+## Learning Log
+## Week 4 The Shape // SVG Structure, Figma's Engine, and Interactive Graphics
 ​
 ### What I Learned
-The concepts that were taught this week were about data types and variables. These are common in every coding language, so it was great review. I did become more familiar with querySelector.
+I learned how to make my own SVGs and brushed up on creating dropdowns! 
+I read about SVG paths too, but have not applied that idea much yet.
 ​
 ​
 ### What Was Hard
-I found a few obstacles when trying to reach the stretch goals - specifically adding a transition between the images when they are toggled. They were displaying stacked. It ended up being a simple error but that can always be a little frustrating.
+I did face some creative challenges with creating a personal mark. I am not the most creative in that way and with the no paths constraint that made it even more challenging.
 ​
 ​
 ### How I Used AI
-I used AI to jazz up my webpage and add some animations. From code + design 1 I learned the surface of animations and how to make them your own using keyframes, but I don't know off the top of my head what they are called. I used 'blink' and 'glitch'. I don't know how to use copiliot since I have never tried, but that is a goal of mine since I think it would simplify my workflow.
+Asked chat why my dropdown code wasn't working. Often times it was mismatched curly braces and I also had an issue with my media query.
 ​
 ​
 ### What's Still Unclear
-I definitely need more practice writing javascript since it doesn't come easily yet. I find myself looking up how to do things / refreshers when I forget exactly how to do something. 
+I feel a little fuzzy on SVGs but I think that is to be expected. I am feeling nervous about animating them and incorporating them into my final project.
 ​
 ​
-### Work Completed (Week 0)
-​
-**Engage**
-- [X] Portfolio Audit
-​
-**Learn**
-- [X] Console Explorer
-- [X] Codedex Console Fundamentals
-​
-**Reflect**
-- [X] Visual Notes: Variables and Strings
-​
-**Build**
-- [X] The Setup
-- [X] The Behavioral Layer
-​
----
+### Work Completed (Week 4)
+- [X] The Mark
+- [X] Theme Dropdown
 
-### Week 1: Systems That Respond
+
 # Learning Log
-
-## Week 1
+​
+## Week 3
 ​
 ### What I Learned
-This week we learned about using a toggle in javascript. The idea of using a toggle and conditionals is something I am familar with in other programming languages but not in JS. 
-Our reading covered design systems and I learned that those consist of not only style tiles but also pattern and component libraries, mission statements, and documentation!
+I learned how to utilize system preferences and the advantages of using SVGs and what they are!
 ​
 ​
 ### What Was Hard
-I wouldn't say that anything was hard for me this week. Travis provided straightforward templates for our projects, and I really like using both codedex and html academy.
+It is somewhat challenging to think in a new programming language. Javascript is simpler than Java or C# but it needs a different approach. I noticed this with the saving preference on reload.
 ​
 ​
 ### How I Used AI
-I used AI to help jazz up my captions for The Storyteller because I do not have a way with words. 
+I asked how about the best way to incorporate an image change with the theme change as well.
 ​
 ​
 ### What's Still Unclear
-I think I will have difficulty using the naming conventions because I have been pretty unorganized up until now. It will be a good thing for me though and save me lots of time in the future.
+No further questions at this time.
+​
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [X] variables.css exists
+- [X] Color tokens defined
+- [X] Typography tokens defined
+- [X] Spacing tokens defined
+- [X] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [X] Uses data-theme on <html>
+- [X] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [X] Theme saved to localStorage
+- [X] Theme persists on refresh
+- [X] System preference used on first visit
+
+**Deployment**
+- [X] Deployed to GitHub Pages
+- [X] Repository is public
 
 
-### Work Completed (Week 1)
-
-**Engage**
-- [X] VS Code Theme Setup
-
-**Learn**
-- [X] Codedex.io Variables
-- [X] HTML Academy 
-
-**Practice**
-- [X] The Story Teller
-
-**Build**
-- [X] Portfolio Migration
-- [X] Portfolio in Figma + Style Tile
-
-**Reflect**
-- [X] Visual Notes: Week 1---
 
 ### Week 2: Remembering Choices
 # Learning Log
@@ -143,70 +134,85 @@ I do find myself wanting to name all variables semantically, so I need to work o
 
 ---
 
+
+### Week 1: Systems That Respond
 # Learning Log
-​
-## Week 3
+
+## Week 1
 ​
 ### What I Learned
-I learned how to utilize system preferences and the advantages of using SVGs and what they are!
+This week we learned about using a toggle in javascript. The idea of using a toggle and conditionals is something I am familar with in other programming languages but not in JS. 
+Our reading covered design systems and I learned that those consist of not only style tiles but also pattern and component libraries, mission statements, and documentation!
 ​
 ​
 ### What Was Hard
-It is somewhat challenging to think in a new programming language. Javascript is simpler than Java or C# but it needs a different approach. I noticed this with the saving preference on reload.
+I wouldn't say that anything was hard for me this week. Travis provided straightforward templates for our projects, and I really like using both codedex and html academy.
 ​
 ​
 ### How I Used AI
-I asked how about the best way to incorporate an image change with the theme change as well.
+I used AI to help jazz up my captions for The Storyteller because I do not have a way with words. 
 ​
 ​
 ### What's Still Unclear
-No further questions at this time.
+I think I will have difficulty using the naming conventions because I have been pretty unorganized up until now. It will be a good thing for me though and save me lots of time in the future.
+
+
+### Work Completed (Week 1)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Variables
+- [X] HTML Academy 
+
+**Practice**
+- [X] The Story Teller
+
+**Build**
+- [X] Portfolio Migration
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 1---
+
 ​
-### Work Completed (Week 3)
-
-**Design Tokens**
-- [X] variables.css exists
-- [X] Color tokens defined
-- [X] Typography tokens defined
-- [X] Spacing tokens defined
-- [X] Tokens used in CSS (no hardcoded values)
-
-**Theme System**
-- [X] Uses data-theme on <html>
-- [X] Toggle feedback is immediate
-
-**Persistence & Preference**
-- [X] Theme saved to localStorage
-- [X] Theme persists on refresh
-- [X] System preference used on first visit
-
-**Deployment**
-- [X] Deployed to GitHub Pages
-- [X] Repository is public
-
-## Learning Log
-## Week 4 The Shape // SVG Structure, Figma's Engine, and Interactive Graphics
+## Week 0: The Setup
 ​
 ### What I Learned
-I learned how to make my own SVGs and brushed up on creating dropdowns! 
-I read about SVG paths too, but have not applied that idea much yet.
+The concepts that were taught this week were about data types and variables. These are common in every coding language, so it was great review. I did become more familiar with querySelector.
 ​
 ​
 ### What Was Hard
-I did face some creative challenges with creating a personal mark. I am not the most creative in that way and with the no paths constraint that made it even more challenging.
+I found a few obstacles when trying to reach the stretch goals - specifically adding a transition between the images when they are toggled. They were displaying stacked. It ended up being a simple error but that can always be a little frustrating.
 ​
 ​
 ### How I Used AI
-Asked chat why my dropdown code wasn't working. Often times it was mismatched curly braces and I also had an issue with my media query.
+I used AI to jazz up my webpage and add some animations. From code + design 1 I learned the surface of animations and how to make them your own using keyframes, but I don't know off the top of my head what they are called. I used 'blink' and 'glitch'. I don't know how to use copiliot since I have never tried, but that is a goal of mine since I think it would simplify my workflow.
 ​
 ​
 ### What's Still Unclear
-I feel a little fuzzy on SVGs but I think that is to be expected. I am feeling nervous about animating them and incorporating them into my final project.
+I definitely need more practice writing javascript since it doesn't come easily yet. I find myself looking up how to do things / refreshers when I forget exactly how to do something. 
 ​
 ​
-### Work Completed (Week 4)
-- [X] The Mark
-- [X] Theme Dropdown
+### Work Completed (Week 0)
+​
+**Engage**
+- [X] Portfolio Audit
+​
+**Learn**
+- [X] Console Explorer
+- [X] Codedex Console Fundamentals
+​
+**Reflect**
+- [X] Visual Notes: Variables and Strings
+​
+**Build**
+- [X] The Setup
+- [X] The Behavioral Layer
+​
+---
+
 
 ## Quick Links
 
