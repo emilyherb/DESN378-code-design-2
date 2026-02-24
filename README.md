@@ -24,6 +24,30 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 Update this section each week with observations, breakthroughs, and questions.
 
+# Learning Log​
+## Week 5/6#
+​
+### What I Learned
+I learned all about GSAP and how straighforward creating animations can be. Their built in methods are easy to understand and let you create with minimal code. It was really cool to connect my learning of SVGs to this and apply it to project that is meaningful to me. The concept of a timeline was familiar as I like to create/edit videos in my free time.
+​
+​
+### What Was Hard
+What was hard for me this week was coming up with a story and putting everything together on my own. Most of the time there are stricter guidelines to assigments and that always feels more comfortable to me.
+​
+​
+### How I Used AI
+I used AI to help map JS concepts to my metaphor and to generate SVGs for my project. In the following weeks I'd like to get familiar with copilot type tools to make my work flow simpler.
+​
+​
+### What's Still Unclear
+Hearing that CSS is the standard for animations is interesting to me. I would like to learn more about that and have those skills under my belt too.
+​
+​
+### Work Completed (Week 5/6)
+- [X] Metaphor Alignment
+- [X] The System
+- [X] The Blueprint
+
 ## Learning Log
 ## Week 4 The Shape // SVG Structure, Figma's Engine, and Interactive Graphics
 ​
